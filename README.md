@@ -24,7 +24,8 @@ Our data lake solution consists of the following components:
 7. API-Based Microservice: We use an API-based microservice hosted on ECS to allow developers to interact with Swagger UI and set up new jobs for tables easily.
   
  ## Payload used to create Ingestion Job through Swagger UI 
-  ![image](https://user-images.githubusercontent.com/39345855/236828271-41f7c5ed-fe61-4440-84c7-88fe3481d51c.png)
+![image](https://user-images.githubusercontent.com/39345855/236828356-161a1426-76ef-463e-ba0d-fd62b72936e2.png)
+
 
  ![image](https://user-images.githubusercontent.com/39345855/236828114-08f693b3-2aa5-48ce-a656-b23c368c7cab.png)
 
