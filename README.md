@@ -1,6 +1,11 @@
 # LakeBoost
 Maximizing Efficiency in Data Lake (Hudi) Glue ETL Jobs with a Templated Approach and Serverless Architecture
+
+
 ![image](https://user-images.githubusercontent.com/39345855/236826928-195dd3b6-ab36-4598-86e0-fa7deec1401c.png)
+
+## Video : https://www.youtube.com/watch?v=DhMlFgn8UU4&t=20s
+#### Article  Link : <ADDED SOON>
 
 ## Introduction
 In today's data-driven world, organizations are collecting and analyzing large amounts of data to gain insights and make informed decisions. As a result, the need for efficient and scalable big data solutions has increased significantly. Data lakes have emerged as a popular solution for storing and managing large amounts of structured and unstructured data.
@@ -17,3 +22,10 @@ Our data lake solution consists of the following components:
 5. Lambda Function: We use a Lambda function to trigger Glue ETL jobs based on metadata read from a DynamoDB table. The Lambda function is triggered on a CRON schedule and reads the metadata to determine the appropriate parameters for the Glue ETL job.
 6. DynamoDB: We use DynamoDB to store metadata for our Glue ETL jobs. The metadata includes job-specific parameters such as input path, output path, and configurations for each job.
 7. API-Based Microservice: We use an API-based microservice hosted on ECS to allow developers to interact with Swagger UI and set up new jobs for tables easily.
+  
+ ## Payload used to create Ingestion Job 
+ ![image](https://user-images.githubusercontent.com/39345855/236828114-08f693b3-2aa5-48ce-a656-b23c368c7cab.png)
+
+  
+  
+  
