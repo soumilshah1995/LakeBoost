@@ -5,7 +5,7 @@ Maximizing Efficiency in Data Lake (Hudi) Glue ETL Jobs with a Templated Approac
 ![image](https://user-images.githubusercontent.com/39345855/236826928-195dd3b6-ab36-4598-86e0-fa7deec1401c.png)
 
 ## Video : https://www.youtube.com/watch?v=DhMlFgn8UU4&t=20s
-#### Article  Link : <ADDED SOON>
+#### Article  Link : https://www.linkedin.com/pulse/lakeboostmaximizing-efficiency-data-lake-hudi-glue-etl-soumil-shah%3FtrackingId=P76LQeq7Shm2mOcFwRQrfg%253D%253D/?trackingId=P76LQeq7Shm2mOcFwRQrfg%3D%3D
 
 ## Introduction
 In today's data-driven world, organizations are collecting and analyzing large amounts of data to gain insights and make informed decisions. As a result, the need for efficient and scalable big data solutions has increased significantly. Data lakes have emerged as a popular solution for storing and managing large amounts of structured and unstructured data.
