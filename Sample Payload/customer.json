@@ -3,7 +3,7 @@
   "created_by": "soumil",
   "cron_schedule": "0/15 * * * ? *",
   "job_name": "glue-4-test-job",
-  "lambdaArn": "arn:aws:lambda:us-east-1:043916019468:function:handynamodb",
+  "lambdaArn": "arn:aws:lambda:us-east-1:XXXX:function:handynamodb",
   "table_name": "customers",
   "glue_payload": {
     "JOB_NAME": "glue-template",
