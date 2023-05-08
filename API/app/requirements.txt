@@ -1,0 +1,8 @@
+Flask-RESTful
+Flask
+gunicorn
+python-dotenv
+flask-apispec
+jinja2
+pynamodb
+boto3
