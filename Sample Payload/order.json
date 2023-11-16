@@ -1,0 +1,26 @@
+{
+  "active":"False",
+  "created_by":"soumil",
+  "cron_schedule":"0/15 * * * ? *",
+  "job_name":"glue-4-test-job",
+  "lambdaArn":"arn:aws:lambda:us-east-1:0XXXX68:function:handynamodb",
+  "table_name":"orders",
+  "glue_payload":{
+    "JOB_NAME":"glue-template",
+    "ENABLE_CLEANER":"True",
+    "ENABLE_HIVE_SYNC":"True",
+    "ENABLE_PARTITION":"True",
+    "GLUE_DATABASE":"hudidb",
+    "GLUE_TABLE_NAME":"orders",
+    "HUDI_PRECOMB_KEY":"ts",
+    "HUDI_RECORD_KEY":"orderid",
+    "HUDI_TABLE_TYPE":"COPY_ON_WRITE",
+    "PARTITON_FIELDS":"year,month",
+    "SOURCE_FILE_TYPE":"json",
+    "SOURCE_S3_PATH":"s3://jt-soumilshah-test/raw/orders/",
+    "TARGET_S3_PATH":"s3://jt-soumilshah-test/silver/orders/",
+    "INDEX_TYPE":"BLOOM",
+    "USE_SQL_TRANSFORMER":"True",
+    "SQL_TRANSFORMER_QUERY":"SELECT * , extract(year from ts) as year, extract(month from ts) as month, extract(day from ts) as day FROM temp;"
+  }
+}
