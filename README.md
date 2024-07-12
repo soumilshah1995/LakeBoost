@@ -1,5 +1,4 @@
-# LakeBoost
-Maximizing Efficiency in Data Lake (Hudi) Glue ETL Jobs with a Templated Approach and Serverless Architecture
+# LakeBoost: Maximizing Efficiency in Data Lake (Hudi) Glue ETL Jobs with a Templated Approach and Serverless Architecture
 
 
 ![image](https://user-images.githubusercontent.com/39345855/236826928-195dd3b6-ab36-4598-86e0-fa7deec1401c.png)
